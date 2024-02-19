@@ -1,10 +1,3 @@
-import {
-	Accordion,
-	AccordionItem,
-	AccordionButton,
-	AccordionPanel,
-	AccordionIcon,
-} from "@chakra-ui/accordion";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -45,7 +38,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="bg-white rounded-lg border-t-4 border-solid border-CGreen h-fit">
-					<Accordion>
+					{/*<Accordion>
 						<AccordionItem className="border-t border-solid border-CGray p-5 text-CDark">
 							<AccordionButton className="flex justify-between w-full text-xl font-bold">
 								How to setup Shade Pro?
@@ -98,7 +91,7 @@ const Services = () => {
 								</p>
 							</AccordionPanel>
 						</AccordionItem>
-					</Accordion>
+	</Accordion>*/}
 				</div>
 			</div>
 		</section>
