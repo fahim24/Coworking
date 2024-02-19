@@ -1,3 +1,4 @@
+import { Divider } from "antd";
 import About from "../components/About";
 import Facts from "../components/Facts";
 import Features from "../components/Features";
@@ -12,11 +13,13 @@ const Home = () => {
 		<>
 			<HeroSection />
 			<Facts />
+			<Divider />
 			<Locations />
 			<About />
 			<Features />
 			<Services />
 			<Subscribe />
+			<Divider />
 			<Footer />
 		</>
 	);

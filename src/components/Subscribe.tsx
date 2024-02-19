@@ -1,7 +1,7 @@
 const Subscribe = () => {
 	return (
-		<section className="container mx-auto px-10 py-24 border-b border-solid border-CGray">
-			<div className="w-2/5 mx-auto flex flex-col  gap-16">
+		<section className="container mx-auto px-10 py-24 ">
+			<div className="w-full md:w-3/5 lg:w-2/5 mx-auto flex flex-col  gap-16">
 				<div className="flex flex-col gap-5 text-CDark text-center">
 					<h2 className=" font-bold text-4xl ">Get latest updates</h2>
 					<p className=" opacity-70 text-lg ">

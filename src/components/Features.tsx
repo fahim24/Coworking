@@ -4,7 +4,7 @@ import Mug from "../assets/mug.svg";
 
 const Features = () => {
 	return (
-		<section className="container mx-auto px-10 py-16 grid grid-cols-3 gap-10">
+		<section className="container mx-auto px-10 py-16 grid grid-cols-1 lg:grid-cols-3 gap-10">
 			<div className="flex items-start gap-5">
 				<img src={Drawer} alt="" />
 				<div className="flex flex-col gap-5 text-CDark">

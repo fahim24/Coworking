@@ -1,14 +1,44 @@
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Collapse } from "antd";
 
 const Services = () => {
+	const text = `
+  With lots of unique blocks, you can easily build a page with coding. Build your next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
+`;
+
+	const items = [
+		{
+			key: "1",
+			label: <h3 className="text-CDark font-bold text-xl">How to setup Shade Pro?</h3>,
+			children: <p className="text-CDark opacity-70">{text}</p>,
+		},
+		{
+			key: "2",
+			label: <h3 className="text-CDark font-bold text-xl">Can I use Shade Pro for my clients?</h3>,
+			children: <p className="text-CDark opacity-70">{text}</p>,
+		},
+		{
+			key: "3",
+			label: <h3 className="text-CDark font-bold text-xl">How often do you release update?</h3>,
+			children: <p className="text-CDark opacity-70">{text}</p>,
+		},
+		{
+			key: "4",
+			label: <h3 className="text-CDark font-bold text-xl">How can I access to old version?</h3>,
+			children: <p className="text-CDark opacity-70">{text}</p>,
+		},
+	];
+
 	return (
 		<section className="bg-CDark">
-			<div className="container mx-auto px-10 py-24 grid grid-cols-2 gap-20">
-				<div className="flex flex-col gap-16 w-4/5">
+			<div className="container mx-auto px-10 py-24 grid grid-cols-1 md:grid-cols-2 gap-20">
+				<div className="flex flex-col gap-16 w-full lg:w-4/5">
 					<div className="flex flex-col gap-5 text-white">
-						<h2 className="font-bold text-4xl">We are always here for your backup.</h2>
-						<p className="text-lg opacity-70">
+						<h2 className="font-bold text-4xl text-center md:text-left">
+							We are always here for your backup.
+						</h2>
+						<p className="text-lg opacity-70 text-center md:text-left">
 							We share common trends and strategies for creating & improving your rental income.
 						</p>
 					</div>
@@ -38,60 +68,14 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="bg-white rounded-lg border-t-4 border-solid border-CGreen h-fit">
-					{/*<Accordion>
-						<AccordionItem className="border-t border-solid border-CGray p-5 text-CDark">
-							<AccordionButton className="flex justify-between w-full text-xl font-bold">
-								How to setup Shade Pro?
-								<AccordionIcon />
-							</AccordionButton>
-
-							<AccordionPanel>
-								<p className="text-CDark  pt-5 opacity-70">
-									With lots of unique blocks, you can easily build a page with coding. Build your
-									next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
-								</p>
-							</AccordionPanel>
-						</AccordionItem>
-						<AccordionItem className="border-t border-solid border-CGray p-5 text-CDark">
-							<AccordionButton className="flex justify-between w-full text-xl font-bold">
-								Can I use Shade Pro for my clients?
-								<AccordionIcon />
-							</AccordionButton>
-
-							<AccordionPanel>
-								<p className="text-CDark  pt-5 opacity-70">
-									With lots of unique blocks, you can easily build a page with coding. Build your
-									next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
-								</p>
-							</AccordionPanel>
-						</AccordionItem>
-						<AccordionItem className="border-t border-solid border-CGray p-5 text-CDark">
-							<AccordionButton className="flex justify-between w-full text-xl font-bold">
-								How often do you release update?
-								<AccordionIcon />
-							</AccordionButton>
-
-							<AccordionPanel>
-								<p className="text-CDark  pt-5 opacity-70">
-									With lots of unique blocks, you can easily build a page with coding. Build your
-									next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
-								</p>
-							</AccordionPanel>
-						</AccordionItem>
-						<AccordionItem className="border-t border-solid border-CGray p-5 text-CDark">
-							<AccordionButton className="flex justify-between w-full text-xl font-bold">
-								How can I access to old version?
-								<AccordionIcon />
-							</AccordionButton>
-
-							<AccordionPanel>
-								<p className="text-CDark  pt-5 opacity-70">
-									With lots of unique blocks, you can easily build a page with coding. Build your
-									next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
-								</p>
-							</AccordionPanel>
-						</AccordionItem>
-	</Accordion>*/}
+					<Collapse
+						accordion
+						items={items}
+						size="large"
+						bordered={false}
+						defaultActiveKey={["1"]}
+						expandIconPosition="end"
+					/>
 				</div>
 			</div>
 		</section>

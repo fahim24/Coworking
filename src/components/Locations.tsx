@@ -11,9 +11,9 @@ const Locations = () => {
 					With lots of unique blocks, you can easily build a page easily without any coding.
 				</p>
 			</div>
-			<div className="grid grid-cols-3 gap-10 my-20">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-20">
 				<div className="flex flex-col gap-12">
-					<div className="h-[440px]  shadow1">
+					<div className="h-[330px] lg:h-[440px]  shadow1">
 						<img src={Loc1} alt="" className="object-cover h-full rounded-lg" />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
@@ -22,7 +22,7 @@ const Locations = () => {
 					</div>
 				</div>
 				<div className="flex flex-col gap-12">
-					<div className="h-[440px]  shadow1">
+					<div className="h-[330px] lg:h-[440px]  shadow1">
 						<img src={Loc2} alt="" className="object-cover h-full rounded-lg" />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
@@ -31,7 +31,7 @@ const Locations = () => {
 					</div>
 				</div>
 				<div className="flex flex-col gap-12">
-					<div className="h-[440px] shadow1">
+					<div className="h-[330px] lg:h-[440px] shadow1">
 						<img src={Loc3} alt="" className="object-cover h-full rounded-lg " />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
