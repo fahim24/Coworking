@@ -23,7 +23,7 @@ const SelectWrapper = styled.div`
 	&& .ant-select .ant-select-selector {
 		padding-left: calc(3rem - 8px);
 	}
-`;
+1`;
 
 const CustomSelect = ({ prefixIcon, children, ...rest }: CustomSelectProps) => {
 	return (

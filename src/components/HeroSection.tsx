@@ -24,6 +24,7 @@ const HeroSection = () => {
 						action="#"
 						className="bg-white rounded-lg p-4 grid grid-cols-1 md:grid-cols-3 items-center gap-5 w-full"
 					>
+						{/* antd Select */}
 						<CustomSelect
 							allowClear
 							size="large"
@@ -42,6 +43,7 @@ const HeroSection = () => {
 								</Select.Option>
 							))}
 						</CustomSelect>
+						{/* antd DatePicker */}
 						<CustomDatePicker
 							size="large"
 							className="text-CDark"

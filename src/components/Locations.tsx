@@ -2,6 +2,8 @@ import Loc1 from "../assets/place1.png";
 import Loc2 from "../assets/place2.png";
 import Loc3 from "../assets/place3.png";
 
+import { Image } from "antd";
+
 const Locations = () => {
 	return (
 		<section className="container mx-auto px-10 my-24">
@@ -13,8 +15,8 @@ const Locations = () => {
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-20">
 				<div className="flex flex-col gap-12">
-					<div className="h-[330px] lg:h-[440px]  shadow1">
-						<img src={Loc1} alt="" className="object-cover h-full rounded-lg" />
+					<div className="h-[330px] lg:h-[440px] shadow1">
+						<Image src={Loc1} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
 						<h6 className="text-2xl font-bold">Beauview</h6>
@@ -23,7 +25,7 @@ const Locations = () => {
 				</div>
 				<div className="flex flex-col gap-12">
 					<div className="h-[330px] lg:h-[440px]  shadow1">
-						<img src={Loc2} alt="" className="object-cover h-full rounded-lg" />
+						<Image src={Loc2} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
 						<h6 className="text-2xl font-bold">Haleyborough</h6>
@@ -32,7 +34,7 @@ const Locations = () => {
 				</div>
 				<div className="flex flex-col gap-12">
 					<div className="h-[330px] lg:h-[440px] shadow1">
-						<img src={Loc3} alt="" className="object-cover h-full rounded-lg " />
+						<Image src={Loc3} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
 					<div className="text-CDark text-center flex flex-col gap-2">
 						<h6 className="text-2xl font-bold">Jeromyshire</h6>

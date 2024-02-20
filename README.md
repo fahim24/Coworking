@@ -9,4 +9,4 @@
 - Reactjs
 - TailWindCSS
 - FontAwesome
-- And design
+- Ant design
