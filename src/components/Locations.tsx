@@ -14,29 +14,29 @@ const Locations = () => {
 				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-20">
-				<div className="flex flex-col gap-12">
+				<div className="space-y-12">
 					<div className="h-[330px] lg:h-[440px] shadow1">
 						<Image src={Loc1} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
-					<div className="text-CDark text-center flex flex-col gap-2">
+					<div className="text-CDark text-center space-y-2">
 						<h6 className="text-2xl font-bold">Beauview</h6>
 						<p className="opacity-70">37 seats</p>
 					</div>
 				</div>
-				<div className="flex flex-col gap-12">
+				<div className="space-y-12">
 					<div className="h-[330px] lg:h-[440px]  shadow1">
 						<Image src={Loc2} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
-					<div className="text-CDark text-center flex flex-col gap-2">
+					<div className="text-CDark text-center space-y-2">
 						<h6 className="text-2xl font-bold">Haleyborough</h6>
 						<p className="opacity-70">12 seats</p>
 					</div>
 				</div>
-				<div className="flex flex-col gap-12">
+				<div className="space-y-12">
 					<div className="h-[330px] lg:h-[440px] shadow1">
 						<Image src={Loc3} height={"100%"} className="object-cover h-full rounded-lg" />
 					</div>
-					<div className="text-CDark text-center flex flex-col gap-2">
+					<div className="text-CDark text-center space-y-2">
 						<h6 className="text-2xl font-bold">Jeromyshire</h6>
 						<p className="opacity-70">28 seats</p>
 					</div>

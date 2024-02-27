@@ -14,7 +14,7 @@ const Footer = () => {
 			<div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-10 py-10">
 				<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 					<h6 className="opacity-70">Company</h6>
-					<ul className="">
+					<ul className="space-y-1">
 						<li>
 							<a href="#" className="hover:text-CBlue">
 								About us
@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 					<h6 className="opacity-70">Product</h6>
-					<ul className="">
+					<ul className="space-y-1">
 						<li>
 							<a href="#" className="hover:text-CBlue">
 								Features
@@ -69,7 +69,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 					<h6 className="opacity-70">Services</h6>
-					<ul className="">
+					<ul className="space-y-1">
 						<li>
 							<a href="#" className="hover:text-CBlue">
 								Digital Marketing
@@ -94,7 +94,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 					<h6 className="opacity-70">Legal</h6>
-					<ul className="">
+					<ul className="space-y-1">
 						<li>
 							<a href="#" className="hover:text-CBlue">
 								Privacy Policy
@@ -114,7 +114,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 					<h6 className="opacity-70">Contact us</h6>
-					<ul className="">
+					<ul className="space-y-1">
 						<li>
 							<a href="#" className="text-CBlue">
 								support@brainwave.io
@@ -133,7 +133,7 @@ const Footer = () => {
 				<p className="order-2 md:order-1 text-center md:text-left">
 					<FontAwesomeIcon icon={faCopyright} /> 2024 Copyright, All Right Reserved
 				</p>
-				<div className="flex gap-5 order-1 md:order-2 justify-center">
+				<div className="space-x-5 order-1 md:order-2 justify-center">
 					<a href="https://www.twitter.com" className=" hover:text-CBlue">
 						<FontAwesomeIcon icon={faTwitter} />
 					</a>

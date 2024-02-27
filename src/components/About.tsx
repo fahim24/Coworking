@@ -6,7 +6,7 @@ const About = () => {
 		<section className=" relative">
 			<div className="bg-CGray w-full h-3/5 absolute top-0 left-0 z-[-1]"></div>
 			<div className="container mx-auto px-10 py-24 grid grid-cols-1 md:grid-cols-2 gap-20">
-				<div className="flex flex-col gap-5 w-full md:w-3/4  text-CDark">
+				<div className="space-y-5 w-full md:w-3/4  text-CDark">
 					<h3 className="text-4xl font-bold text-center md:text-left">
 						Work around very talented people.
 					</h3>

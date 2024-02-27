@@ -33,8 +33,8 @@ const Services = () => {
 	return (
 		<section className="bg-CDark">
 			<div className="container mx-auto px-10 py-24 grid grid-cols-1 md:grid-cols-2 gap-20">
-				<div className="flex flex-col gap-16 w-full lg:w-4/5">
-					<div className="flex flex-col gap-5 text-white">
+				<div className="space-y-16 w-full lg:w-4/5">
+					<div className="space-y-5 text-white">
 						<h2 className="font-bold text-4xl text-center md:text-left">
 							We are always here for your backup.
 						</h2>
@@ -42,12 +42,12 @@ const Services = () => {
 							We share common trends and strategies for creating & improving your rental income.
 						</p>
 					</div>
-					<div className="flex flex-col gap-10">
+					<div className="space-y-10">
 						<div className="flex gap-5">
 							<div className="text-CGreen text-3xl">
 								<FontAwesomeIcon icon={faCircleCheck} />
 							</div>
-							<div className="flex flex-col gap-3 text-white">
+							<div className="space-y-3 text-white">
 								<h5 className="font-bold text-xl">Noise Free Locations</h5>
 								<p className="opacity-70">
 									With lots of unique blocks, you can easily build a page without coding.{" "}
@@ -58,7 +58,7 @@ const Services = () => {
 							<div className="text-CGreen text-3xl">
 								<FontAwesomeIcon icon={faCircleCheck} />
 							</div>
-							<div className="flex flex-col gap-3 text-white">
+							<div className="space-y-3 text-white">
 								<h5 className="font-bold text-xl">24/7 Hour Support</h5>
 								<p className="opacity-70">
 									With lots of unique blocks, you can easily build a page without coding.{" "}

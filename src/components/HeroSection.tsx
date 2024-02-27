@@ -11,8 +11,8 @@ const HeroSection = () => {
 	const options = ["Location 1", "Location 2", "Location 3", "Location 4"];
 	return (
 		<div className="relative">
-			<div className="w-full h-full bg-CDark absolute top-0 left-0 z-[-2]"></div>
-			<div className="w-full h-full bgTopimg  absolute top-0 left-0 z-[-1]"></div>
+			<div className="size-full bg-CDark absolute top-0 left-0 z-[-2]"></div>
+			<div className="size-full bgTopimg  absolute top-0 left-0 z-[-1]"></div>
 			<div className="container mx-auto px-10">
 				<NavSection />
 				<div className="flex flex-col gap-10 w-full lg:w-3/4 mx-auto items-center justify-center my-20 px-0 md:px-10">
