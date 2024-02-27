@@ -50,7 +50,7 @@ const HeroSection = () => {
 							prefixIcon={<FontAwesomeIcon icon={faCalendar} className="text-CDark" />}
 							suffixIcon={<FontAwesomeIcon icon={faCaretDown} className="text-CDark" />}
 						/>
-						<button className="bg-CBlue text-white text-lg font-bold py-2.5 px-8 rounded-lg">
+						<button className="bg-CBlue text-white text-lg font-bold py-2.5 px-8 rounded-lg hover:opacity-90">
 							Search Place
 						</button>
 					</form>

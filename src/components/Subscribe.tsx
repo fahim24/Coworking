@@ -9,13 +9,17 @@ const Subscribe = () => {
 						landing page.
 					</p>
 				</div>
-				<div className="space-y-5 w-3/4 mx-auto">
-					<input
-						type="email"
-						placeholder="Enter Your Email"
-						className="border border-solid border-CGray p-2.5 rounded"
-					/>
-					<button className="bg-CBlue text-white font-bold rounded p-2.5">Subscribe</button>
+				<div className="space-y-5 w-full lg:w-3/4 mx-auto">
+					<div className="flex flex-col md:flex-row gap-3 w-full">
+						<input
+							type="email"
+							placeholder="Enter Your Email"
+							className="border border-solid border-CGray p-2.5 rounded w-full"
+						/>
+						<button className="bg-CBlue text-white font-bold rounded py-2.5 px-5 hover:opacity-90">
+							Subscribe
+						</button>
+					</div>
 					<p className="text-CDark opacity-70 text-center">
 						We’ll never share your details with third parties. View our Privacy Policy for more
 						info.
